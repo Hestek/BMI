@@ -16,7 +16,7 @@ namespace BMI1
             Console.WriteLine("Enter your Weight");
             double.TryParse(Console.ReadLine(), out Weight);
             if (Weight < 50)
-                Console.WriteLine($"Invalid Weight");
+            Console.WriteLine($"Invalid Weight");
             Console.ReadLine();
         
             Console.WriteLine("Enter your Height");
