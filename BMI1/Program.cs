@@ -13,7 +13,7 @@ namespace BMI1
             double Height;
             double count;
            
-            Console.WriteLine("Enter your Weight");
+            Console.WriteLine("Enter your Weight (kg)");
             double.TryParse(Console.ReadLine(), out Weight);
             if (Weight < 50)
             Console.WriteLine($"Invalid Weight");
@@ -21,7 +21,7 @@ namespace BMI1
                 Console.WriteLine($"Invalid Weight");
             Console.ReadLine();
         
-            Console.WriteLine("Enter your Height");
+            Console.WriteLine("Enter your Height (cm)");
             double.TryParse(Console.ReadLine(), out Height);
             if (Height < 120)
                 Console.WriteLine($"Invalid Height");
